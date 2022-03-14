@@ -32,6 +32,23 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    [
+      '@nuxtjs/firebase',
+      {
+        config: {
+          apiKey: "AIzaSyDchGmxY_TGnc_36cliaqzHMBqNydFS5QE",
+          authDomain: "thinkcleanservice.firebaseapp.com",
+          projectId: "thinkcleanservice",
+          storageBucket: "thinkcleanservice.appspot.com",
+          messagingSenderId: "176320622690",
+          appId: "1:176320622690:web:b6b10330d9a5fb8d2d613b",
+          measurementId: "G-L2CHTHDHV8"
+        },
+        services: {
+          auth: true // Just as example. Can be any other service.
+        }
+      }
+    ]
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

@@ -11,5 +11,9 @@
   "devDependencies": {
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3"
+  },
+  "dependencies": {
+    "@nuxtjs/firebase": "^8.2.2",
+    "firebase": "^9.6.8"
   }
 }
