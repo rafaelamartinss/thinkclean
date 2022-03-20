@@ -35,4 +35,4 @@
 export default {
     name: "AppCard"
 }
-</script>p
+</script>
