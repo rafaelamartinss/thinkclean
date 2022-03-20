@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Nuxt Starter',
+    title: 'ThinkClean',
     htmlAttrs: {
       lang: 'en'
     },
@@ -16,7 +16,17 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
+  css: ['~/assets/bootstrap/bootstrap.min.css'],
+  css: ['~/assets/template/css/index.css'],
+  script: [
+   {
+     src: "~/assets/bootstrap/bootstrap.bundle.min.js",
+     type: "text/javascript"
+   },
+   {
+    src: "~/assets/template/js/index.js",
+    type: "text/javascript"
+  }
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
