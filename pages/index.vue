@@ -2,16 +2,16 @@
     <div class="col-12">
         <AppNavbar />
         <AppWelcomeSection />
-        <AppCard />
+        <AboutUsSection />
     </div>
 </template>
 
 <script>
-import AppCard from "../components/AppCard.vue";
+import AboutUsSection from "../components/AppAboutUsSection.vue";
 import AppNavbar from "../components/AppNavbar.vue";
 import AppWelcomeSection from "../components/AppWelcomeSection.vue";
 
 export default {
-    components: { AppCard, AppNavbar, AppWelcomeSection }
+    components: { AboutUsSection, AppNavbar, AppWelcomeSection }
 }
 </script>
